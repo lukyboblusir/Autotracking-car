@@ -1,4 +1,4 @@
-# Autopatracking-car
+# Autotracking-car
 
 > 大一新生自己手搓的自动寻迹小车
 
