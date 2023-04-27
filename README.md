@@ -4,4 +4,6 @@
 
 ## infomation
 
+用stm32实现的自动循迹小车
+
 To be continue......
