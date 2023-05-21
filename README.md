@@ -49,6 +49,52 @@
 
 ------
 
+## 文件目录
+
+> CORE //启动文件
+>> core_cm3.c
+>> 
+>> core_cm3.h
+>> 
+>> startup_stm32f10x_hd.s
+>> 
+> OBJ //编译输出文件夹
+> 
+> FWLIB //库文件夹
+>> inc
+>>> 各种库函数头文件
+>>> 
+>> src
+>>> 各种库函数c文件
+>
+> SYSTEM //模块文件夹
+>> run //小车行进模块
+>> 
+>> button //按键启动模块
+>> 
+>> follow //循迹模块
+>> 
+>> to be continue...
+>
+> USER //工程文件与main文件
+>> system_stm32f10x.h与.c
+>> 
+>> stm32f10x_it.h与.c
+>> 
+>> stm32f10x_conf.h
+>> 
+>> stm32f10x.h
+>> 
+>> startup_stm32f10x_hd.lst
+>> 
+>> **main.c**
+>> 
+>> 还有各种工程文件
+
+
+
+------
+
 ## 编写与提交指南
 
 项目前期采用模块分组编写的方式，不同的模块存放于不同的文件夹。
